@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>This is the body of Form</h1>
+    <form action="backend.php" method="post" enctype="text/plain">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" name="myName" id="name" minlength="3" maxlength="25" required>
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="myEmail" id="email" required>
+        </div>
+        <br>
+        <div>
+            <label for="password">Enter Password:</label>
+            <input type="password" name="myPassword" id="password" required>
+        </div>
+        <br>
+        <div>
+            <label for="cnic">CNIC:</label>
+            <input type="text" name="cnic" id="cnic" >
+        </div>
+        <br>
+        <div>
+            <label for="ID">ID:</label>
+            <input type="number" name="myID" id="ID">
+        </div>
+        <br>
+        <div>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="myGender" id="gender">female 
+            <input type="radio" name="myGender" id="gender">male
+        </div>
+        <br>
+        <div>
+            <label for="check">Are you eligible:</label>
+            <input type="checkbox" name="mycheckbox" id="checks" checked>
+        </div>
+        <br>
+        <div>
+            <label for="date">DateTime:</label>
+            <input type="date" name="mydate" id="date">
+            <input type="datetime" name="mydate" id="date">
+            <input type="datetime-local" name="mydate" id="date">
+        </div>
+        <br>
+        <div>
+            <label for="range">Range of patience:</label>
+            <input type="range" name="myrange" id="range" min="0" max="100">
+        </div>
+        <br>
+        <div>
+            <label for="age">Age:</label>
+            <select  name="Age Range" id="age" >
+                <option value="1" >18-20</option>
+                <option value="2" >21-25</option>
+                <option value="3" selected>26-30</option>
+                <option value="3" >31-35</option>
+                <option value="4" >36-40</option>
+                <option value="5" >41-50</option>
+        </div>
+        
+        <br>
+        <div>
+            <label for="file">File:</label>
+            <input type="file" name="myfile" id="file" >
+        </div>
+        <input type = "submit">
+    </form>
+</body>
+
+</html>
