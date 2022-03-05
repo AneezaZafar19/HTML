@@ -1,0 +1,13 @@
+
+        body {
+            background-color: lightcyan;
+        }
+        hr{
+            border-style: none;
+            border-top-style: dotted;
+            border-width: 5px;
+            border-color: rgb(197, 197, 197);
+            width: 7%;
+
+        }
+ 
