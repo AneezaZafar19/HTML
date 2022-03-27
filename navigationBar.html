@@ -19,7 +19,8 @@
             margin: 0;
         }
         li{
-            float: left;
+            /* float: left; */
+            display:block;
             list-style-type: none;
         }
         a{
@@ -27,7 +28,7 @@
             padding-top: 5px;
         }
         .search{
-            float:right;
+            /* float:right; */
             background-color: #ceeded;
             color: whitesmoke;
             width: 150;
@@ -47,13 +48,14 @@
     <header>
         <nav class="navbar">
             <ul>
+                <div class="search">
+                    <input type="text" id = "search" name="search" placeholder="search here">
+                </div>
                 <li><a>Home</a></li>
                 <li><a>Page</a></li>
                 <li><a>Services</a></li>
                 <li><a>Contact us</a></li>
-                <div class="search">
-                    <input type="text" id = "search" name="search" placeholder="search here">
-                </div>
+                
 
             </ul>
         </nav>
