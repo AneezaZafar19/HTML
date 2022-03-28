@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex box and length units</title>
+    <style>
+        .container{
+            border: 10px solid red;
+            display:flex;
+            align-items: center;
+            flex-direction: column;
+            font-size: 10px;
+        }
+        .h1{
+            border: 10px solid blueviolet;
+        } 
+        html{
+            font-size: 25px;
+        }
+        #first{
+            font-size: 10em;
+            padding: 3em;
+        }
+       #second{
+           font-size: 3rem;
+           padding: 3rem;
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div><h1  class="item" id="first">this is first heading</h1></div>
+        <div><h1 class="item" id="second">this is second heading</h1></div>
+        <div><h1 class="item" id="third">this is third heading</h1></div>
+    </div>
+</body>
+</html>
